@@ -1,0 +1,44 @@
+:root
+{
+    font-size: 16px;
+}
+*
+{
+    box-sizing: border-box;
+}
+
+html,body
+{
+    padding: 0px;
+    margin: 0px;
+    direction: rtl;
+}
+.row > *
+{
+    float:left;
+}
+.row:after
+{
+    content: '';
+    display: block;
+    clear: both;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul li
+{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+
+
+
+
+
+
+
